@@ -106,8 +106,8 @@ A fast, multi-threaded LAN/Wi-Fi scanner that finds **real devices** on your net
 sudo apt update && sudo apt install -y python3 iputils-ping
 git clone https://github.com/Q-society/Q-radar.git
 cd Q-radar
-chmod +x q-radar.py
-python3 q-radar.py
+chmod +x Q-radar.py
+python3 Q-radar.py
 ```
 
 ### 📱 Termux (Android — no root required)
@@ -117,7 +117,7 @@ pkg update && pkg upgrade -y
 pkg install -y python git
 git clone https://github.com/Q-society/Q-radar.git
 cd Q-radar
-python q-radar.py
+python Q-radar.py
 ```
 
 > ⚠️ On Termux, grant local network permission if prompted, and make sure Wi-Fi is connected (not mobile data) so the scan covers the right subnet.
